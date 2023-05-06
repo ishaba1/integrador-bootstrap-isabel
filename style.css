@@ -1,0 +1,21 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    line-height: 1.5 em;
+}
+.dropdown-item{
+    background: #0dcaf0;
+    color: white;
+}
+.banner__img--shadow{
+    filter: drop-shadow(2px 4px 6px black);
+    -webkit-filter: drop-shadow(2px 4px 6px black);
+}
+nav div .navbar-nav a:hover{
+    color: rgb(2, 123, 153);
+}
+nav div .navbar-nav .active{
+    color: whitesmoke !important;
+}
