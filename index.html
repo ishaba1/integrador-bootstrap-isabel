@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" version="0.2">
+<html lang="en" version="0.3">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="logo-purifikas.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <title>Integrador Bootstrap</title>
+  <title>Integrador Bootstrap & JS</title>
 </head>
 <body>
   <header>
@@ -40,7 +40,7 @@
               <a class="nav-link" href="#contacto">Contácto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#información">Horarios</a>
+              <a class="nav-link" href="/assets/pages/promociones.html">Promociones</a>
             </li>
           </ul>
         </div>
@@ -56,9 +56,9 @@
             <div class="container">
               <div class="row">
                 <div class="col-xs-12 col-md-12 col-lg-6 align-self-end">
-                  <div class="position-absolute top-50 end-0 translate-middle-y text-white p-3 mb-2 line-height-base p-3">
+                  <div class="position-absolute top-50 end-0 translate-middle-y text-white p-3 mb-2 line-height-base p-3 color-background">
                     <p class="fs-3 text-sm-start sticky-top lh-1 animate__animated animate__fadeInRight">Purifika en cada uno de tus Ambientes</p>
-                    <p class="banner__img--shadow text-sm-start lh-1">Servicios de Limpieza ideal, al alcance de un solo un click</p>
+                    <p class="shadowDiv text-sm-start lh-1">Servicios de Limpieza ideal, al alcance de un solo un click</p>
                     <a class="btn btn-secondary btn-sm mb-3" href="#contacto" role="button">Quiero Reservar</a>
                   </div>
                 </div>
@@ -70,25 +70,25 @@
     </section> 
     <section id="nosotros">
       <div class="container-fluid">
-        <div class="bg-info text-white text-top banner__img--shadow rounded pb-2 p-3">
+        <div class="bg-info text-white text-top shadowDiv rounded pb-2 p-3">
           <h1 class="title-shadow">Somos PURIFIKAS</h1>
         </div>
         <div class="bg-info text-emphasis-info bg-opacity-10 text-parrafo lh-sm pb-2 p-2">
-          <p class="lead">Emprendimiento en el área de Servicios de Limpieza y Aseo, creado en el año 2021 por profesionales y conformado por un equipo humano capacitados con los más altos estadares de seguridad e higiene para cumplir satisfactoriamente con los altos requerimientos de nuestoros clientes.</p>
-          <p class="lead">Nuestra MISIÓN es el confort, satisfacción, ahorro de tiempo, comodidad y mejoría de la calidad de vida de todos nuestros clientes mediante la limpieza básica y a detalle de sus hogares, oficinas u otro espacio, con profesionales altamente calificados para cumplir con cada exigencia.</p>
+          <p class="lead">Emprendimiento en el área de Servicios de Limpieza y Aseo, creado en el año 2021 por profesionales y conformado por un equipo humano capacitados con los más altos estándares de seguridad e higiene que nos permiten cumplir satisfactoriamente con los requerimientos de nuestros clientes.</p>
+          <p class="lead">Nuestra MISIÓN es el confort, satisfacción, ahorro de tiempo, comodidad y mejoría en la calidad de vida de todos nuestros clientes mediante la limpieza básica y a detalle de sus hogares, oficinas u otros espacios, con profesionales altamente calificados para cumplir con cada exigencia.</p>
         </div>
       </div>
     </section>
     <section id="servicios">
-      <div class="container mt-3">
-        <div class="bg-info text-white banner__img--shadow rounded p-3 mb-3">
-          <h3 class="text-center title-shadow">Conocé Nuestros Servicios y Planes</h3>
+      <div class="container mt-5 mb-5">
+        <div class="bg-info text-white shadowDiv rounded p-3 mb-3">
+          <h3 class="text-center title-shadow">Conocé Nuestros Planes</h3>
         </div>
         <div class="card-group">
           <div class="card">
             <img src="./assets/img/picaporte.webp" class="card-img-top" alt="picaporte">
-            <div class="card-body">
-              <h5 class="card-title text-center">Servicio Básico,<br> Plan Mensual 4x4</h5>
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Servicio Básico,<br> Plan Mensual 4x4</h5>
               <p class="card-text">Descripción: 4 horas de Purifikas Cleaning Service, 4 veces al Mes<br>Válido para 4 Semanas</p>
               <button type="button" class="btn btn-secondary btn-sm mt-2">Elegir Servicio</button>
             </div>
@@ -105,12 +105,12 @@
               <div class="card-footer">
                 <small class="text-muted">4 horas de Purifikas Cleaning Service por Sesión</small>
               </div>
-            </div>  
+            </div>
           </div>
           <div class="card">
             <img src="./assets/img/guantes.webp" class="card-img-top" alt="guantes">
-            <div class="card-body">
-              <h5 class="card-title text-center">Servicio a Detalle,<br>Plan Mensual 6x4</h5>
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Servicio a Detalle,<br>Plan Mensual 6x4</h5>
               <p class="card-text">Descripción: 6 horas de Purifikas Cleaning Service, 4 veces al Mes.<br>Válido para 4 Semanas</p>
               <button type="button" class="btn btn-secondary btn-sm mt-2">Elegir Servicio</button>
             </div>
@@ -127,12 +127,12 @@
               <div class="card-footer">
                 <small class="text-muted">6 horas de Purifikas Cleaning Service por Sesión</small>
               </div>
-            </div>  
+            </div>
           </div>
           <div class="card">
             <img src="./assets/img/espejo.webp" class="card-img-top" alt="espejo">
-            <div class="card-body">
-              <h5 class="card-title text-center">Sevicios Especiales,<br>Plan Mensual 8x4</h5>
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Sevicios Especiales,<br>Plan Mensual 8x4</h5>
               <p class="card-text">Descripción: 8 horas de Purifikas Cleaning Service, 4 veces al Mes<br>Válido según Acuerdo</p>
               <button type="button" class="btn btn-secondary btn-sm mt-2">Elegir Servicio</button>
             </div>
@@ -152,11 +152,11 @@
             </div>
           </div>
         </div>
-      </div>  
+      </div>
     </section>
     <section id="eleccion">
-      <div class="container mb-3 mt-3">
-        <h3 class="bg-info text-white text-center banner__img--shadow rounded title-shadow mt-3 mb-3 p-3">Porqué Elegirnos</h3>
+      <div class="container mt-5 mb-5">
+        <h3 class="bg-info text-white text-center shadowDiv rounded title-shadow mt-3 mb-3 p-3">Porqué Elegirnos</h3>
         <div class="row justify-content-center">
           <div class="d-grid gap-3">
             <div class="bg-info bg-opacity-10 text-muted p-2">Contamos con el personal capacitado.</div>
@@ -168,8 +168,8 @@
       </div>
     </section>
     <section id="noticias">
-      <div class="container-fluid">
-        <div class="bg-info bg-opacity-10 mb-3">
+      <div class="container-fluid mt-5 mb-5">
+        <div class="bg-info bg-opacity-10">
           <div class="row">
             <div class="col-xs-12 col-lg-6">
               <img src="./assets/img/atomizador.webp" class="img-fluid" style="width: 100vw; height: 400px;" alt="noticia-limpieza">
@@ -187,8 +187,8 @@
       </div>
     </section>
     <section id="servicios-diversos">
-      <div class="container-fluid">
-        <div class="bg-info text-white text-center banner__img--shadow rounded p-3 mb-3">
+      <div class="container-fluid mt-5 mb-5">
+        <div class="bg-info text-white text-center shadowDiv rounded p-3 mb-3">
           <h3 class="title-shadow">Servicios de Limpieza que realizamos</h3>
         </div>
         <div class="row">
@@ -228,10 +228,10 @@
       </div>
     </section>
     <section id="contacto">
-      <div class="container">
-        <div class="row justify-content-center mt-3 mb-3">
+      <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
           <div class="col-10">
-            <div class="bg-info text-white text-center banner__img--shadow rounded pb-3 p-3 mb-3">
+            <div class="bg-info text-white text-center shadowDiv rounded pb-3 p-3 mb-3">
               <h3 class="title-shadow">Contáctanos</h3>
               <p class="text-small">Te asesoramos para que selecciones el servicio de limpieza que mejor se adapte a tí</p>
             </div>
@@ -250,7 +250,7 @@
   </main>
   <footer>
     <section id="información">
-      <div class="container-fluid">
+      <div class="container-fluid gap-3">
         <div class="row aling-items-end justify-content-end bg-info text-white p-5 pb-3">
           <div class="col-xs-12 col-md-6 col-lg-3">
             <div class="mb-2">
@@ -296,7 +296,25 @@
       </div>
     </section>  
   </footer>
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  
+  <script src="/js/form/data.js"></script>
+
+  <script src="/js/cards/dom.js"></script>
+  <script src="/js/form/dom.js"></script>
+
+  <script src="/js/cards/cards.js"></script>
+  <script src="/js/form/form.js"></script>
+
+  <script src="/js/cards/utils.js"></script>
+  <script src="/js/cards/events.js"></script>
+
+  <script src="/js/form/utils.js"></script>
+  <script src="/js/form/events.js"></script>
+
+
 </body>
 
 </html>
