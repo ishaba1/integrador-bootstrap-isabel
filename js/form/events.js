@@ -69,7 +69,7 @@ const submit = (e) => {
     const submitAccepted = values.every(value => value)
 
     submitAccepted 
-        ? location.href = '/enviado.html'
+        ? location.href = '../../enviado.html'
     : alert('Completar todos los campos Correctamente')
 }
 
