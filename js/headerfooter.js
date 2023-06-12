@@ -1,7 +1,7 @@
 const headerTemplate = `
     <nav class="navbar navbar-expand-lg bg-info navbar-dark font text-titulo">
         <a class="navbar-brand" href="#nosotros">
-        <img  class="img-fluid" src="/assets/img/logo.webp" style="width: 250px; height: 100px" alt="logo"/>
+        <img  class="img-fluid" src="../../assets/img/logo.webp" style="width: 250px; height: 100px" alt="logo"/>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@ const headerTemplate = `
                     <a class="nav-link" href="../../index.html">Contácto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/assets/pages/promociones.html">Promociones</a>
+                    <a class="nav-link" href="../../assets/pages/promociones.html">Promociones</a>
                 </li>
             </ul>
         </div>
